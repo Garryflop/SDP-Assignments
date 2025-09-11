@@ -70,7 +70,6 @@ public class Computer {
         return processor.trim();
     }
 
-    // Getters following JavaBean convention
     public int getId() { return id; }
     public String getName() { return name; }
     public String getOperatingSystem() { return operatingSystem; }
