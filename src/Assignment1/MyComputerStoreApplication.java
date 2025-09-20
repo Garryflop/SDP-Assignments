@@ -12,9 +12,8 @@ public class MyComputerStoreApplication {
         Computer officePC = buildAndDisplayComputer(director, computerBuilder, "office");
         Computer workstationPC = buildAndDisplayComputer(director, computerBuilder, "workstation");
         computerBuilder.reset();
-        Computer customPC = computerBuilder.setGpu("RTX2020").build();
+        Computer customPC = computerBuilder.setGpu("RTX2020").setRamGB(-1).build();
         System.out.println("Computer: " + customPC);
-
     }
 
 
