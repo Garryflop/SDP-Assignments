@@ -1,9 +1,11 @@
 package Assignment2.logistics;
 
 import Assignment2.logistics.factories.*;
+import Assignment2.logistics.gui.components.interfaces.Button;
+import Assignment2.logistics.gui.components.interfaces.Panel;
+import Assignment2.logistics.gui.components.interfaces.TextField;
 import Assignment2.logistics.gui.factories.*;
-import Assignment2.logistics.gui.components.*;
-import Assignment2.logistics.transport.Transport;
+import Assignment2.logistics.gui.factories.interfaces.GUIFactory;
 
 public class MyLogisticsApplication {
 
@@ -45,15 +47,15 @@ public class MyLogisticsApplication {
         System.out.println("📦 Processing Shipments:");
         System.out.println();
 
-        // Road shipment
+        // Road
         System.out.println(roadCompany.processShipment("TRK001", 8000, "New York", 7500));
         System.out.println();
 
-        // Sea shipment
+        // Sea
         System.out.println(seaCompany.processShipment("SHP001", 50000, "Hamburg", 45000));
         System.out.println();
 
-        // Air shipment
+        // Air
         System.out.println(airCompany.processShipment("AIR001", 3000, "Tokyo", 2500));
     }
 
@@ -109,7 +111,7 @@ public class MyLogisticsApplication {
         System.out.println("-----------------------------------\n");
 
         // Create logistics system with GUI
-        LogisticsCompany company = new RoadLogistics("Integrated Logistics", "Berlin");
+        LogisticsCompany company = new AirLogistics("Integrated Logistics", "Berlin");
         GUIFactory guiFactory = determineGUIFactory();
 
         System.out.println("🏢 Company: " + company.getCompanyInfo());

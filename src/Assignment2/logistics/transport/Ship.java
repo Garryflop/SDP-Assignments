@@ -1,5 +1,5 @@
 package Assignment2.logistics.transport;
-
+//Concrete Product
 public class Ship extends Transport {
     private final String portRegistration;
     private final int containerCapacity;

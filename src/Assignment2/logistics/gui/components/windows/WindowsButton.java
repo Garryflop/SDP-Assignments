@@ -1,8 +1,8 @@
 package Assignment2.logistics.gui.components.windows;
 
 
-import Assignment2.logistics.gui.components.Button;
-
+import Assignment2.logistics.gui.components.interfaces.Button;
+//Concrete Products
 public class WindowsButton implements Button {
     private final String label;
     private boolean isPressed = false;

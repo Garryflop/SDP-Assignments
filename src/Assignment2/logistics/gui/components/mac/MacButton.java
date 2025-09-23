@@ -1,7 +1,7 @@
 package Assignment2.logistics.gui.components.mac;
 
-import Assignment2.logistics.gui.components.Button;
-
+import Assignment2.logistics.gui.components.interfaces.Button;
+//Concrete Products
 public class MacButton implements Button {
     private final String label;
     private boolean isPressed = false;

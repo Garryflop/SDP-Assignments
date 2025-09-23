@@ -1,7 +1,7 @@
 package Assignment2.logistics.factories;
 
 import Assignment2.logistics.transport.Transport;
-
+//Abstract Creator
 public abstract class LogisticsCompany {
     protected final String companyName;
     protected final String headquarters;

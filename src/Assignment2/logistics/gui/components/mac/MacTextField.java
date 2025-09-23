@@ -1,6 +1,6 @@
 package Assignment2.logistics.gui.components.mac;
 
-import Assignment2.logistics.gui.components.TextField;
+import Assignment2.logistics.gui.components.interfaces.TextField;
 
 public class MacTextField implements TextField {
     private String value = "";

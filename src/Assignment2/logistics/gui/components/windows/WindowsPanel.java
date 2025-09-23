@@ -1,6 +1,6 @@
 package Assignment2.logistics.gui.components.windows;
 
-import Assignment2.logistics.gui.components.Panel;
+import Assignment2.logistics.gui.components.interfaces.Panel;
 import java.util.ArrayList;
 import java.util.List;
 

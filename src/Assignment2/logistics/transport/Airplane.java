@@ -1,5 +1,5 @@
 package Assignment2.logistics.transport;
-
+//Concrete Product
 public class Airplane extends Transport {
     private final String flightCode;
     private final double maxAltitude;

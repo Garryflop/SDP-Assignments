@@ -1,5 +1,5 @@
 package Assignment2.logistics.transport;
-
+//Concrete Product
 public class Truck extends Transport {
     private final String licenseType;
     private final boolean hasTrailer;

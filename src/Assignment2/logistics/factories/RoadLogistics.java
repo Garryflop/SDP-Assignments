@@ -3,7 +3,7 @@ package Assignment2.logistics.factories;
 
 import Assignment2.logistics.transport.Transport;
 import Assignment2.logistics.transport.Truck;
-
+//Concrete Factory
 public class RoadLogistics extends LogisticsCompany {
 
     public RoadLogistics(String companyName, String headquarters) {
@@ -12,7 +12,6 @@ public class RoadLogistics extends LogisticsCompany {
 
     @Override
     public Transport createTransport(String transportId, double capacity) {
-        // Business logic for truck creation
         String licenseType = capacity > 10000 ? "CDL-A" : "CDL-B";
         boolean hasTrailer = capacity > 5000;
 

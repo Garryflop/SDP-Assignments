@@ -2,7 +2,7 @@ package Assignment2.logistics.factories;
 
 import Assignment2.logistics.transport.Transport;
 import Assignment2.logistics.transport.Airplane;
-
+//Concrete Factory
 public class AirLogistics extends LogisticsCompany {
 
     public AirLogistics(String companyName, String headquarters) {
@@ -11,7 +11,6 @@ public class AirLogistics extends LogisticsCompany {
 
     @Override
     public Transport createTransport(String transportId, double capacity) {
-        // Business logic for airplane creation
         String flightCode = "FL" + transportId.substring(transportId.length() - 3);
         double maxAltitude = capacity > 5000 ? 35000 : 25000; // Higher altitude for larger planes
 

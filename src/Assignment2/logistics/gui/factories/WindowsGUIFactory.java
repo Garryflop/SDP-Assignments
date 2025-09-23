@@ -1,8 +1,11 @@
 package Assignment2.logistics.gui.factories;
 
-import Assignment2.logistics.gui.components.*;
+import Assignment2.logistics.gui.components.interfaces.Button;
+import Assignment2.logistics.gui.components.interfaces.Panel;
+import Assignment2.logistics.gui.components.interfaces.TextField;
 import Assignment2.logistics.gui.components.windows.*;
-
+import Assignment2.logistics.gui.factories.interfaces.GUIFactory;
+//Concrete Product
 public class WindowsGUIFactory implements GUIFactory {
 
     @Override

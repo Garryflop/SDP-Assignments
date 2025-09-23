@@ -1,5 +1,5 @@
-package Assignment2.logistics.gui.components;
-
+package Assignment2.logistics.gui.components.interfaces;
+//Abstract Products
 public interface Button {
     String render();
     String onClick();

@@ -1,5 +1,5 @@
 package Assignment2.logistics.transport;
-
+//Abstract Product
 public abstract class Transport {
     protected String transportId;
     protected double capacity;
